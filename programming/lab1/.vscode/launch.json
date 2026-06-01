@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/maksim/Desktop/2sem/programming/lab1/main/lab1",
+      "program": "/Users/maksim/Desktop/2sem/programming/lab1/main/lab1/build/Release/outRelease"
+    }
+  ]
+}

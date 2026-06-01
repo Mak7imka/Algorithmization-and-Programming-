@@ -1,0 +1,210 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="heapify">
+    <mxGraphModel dx="1402" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="5wHlpD6pRd-plRx1jba6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-0" target="5wHlpD6pRd-plRx1jba6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-0" value="початок" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-3" target="5wHlpD6pRd-plRx1jba6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-3" value="&lt;p style=&quot;margin: 0cm; line-height: 16.8667px; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;UK&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;вважаємо, що найбільший елемент знаходиться на поточній позиції&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="277.5" y="130" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-4" target="5wHlpD6pRd-plRx1jba6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-4" value="&lt;p style=&quot;margin: 0cm; line-height: 16.8667px; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;text-align: start; line-height: 16.8667px;&quot; lang=&quot;UK&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Обчислюємо позицію лівого &quot;дочірнього&quot; елемента.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274.38" y="240" width="171.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-6" target="5wHlpD6pRd-plRx1jba6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-6" value="&lt;p style=&quot;margin: 0cm; line-height: 16.8667px; font-family: Calibri, sans-serif;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;text-align: start; line-height: 16.8667px;&quot; lang=&quot;UK&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Обчислюємо позицію правого &quot;дочірнього&quot; елемента.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274.38" y="320" width="171.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-9" target="5wHlpD6pRd-plRx1jba6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-16" value="так" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5wHlpD6pRd-plRx1jba6-12">
+          <mxGeometry x="-0.4742" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-9" target="5wHlpD6pRd-plRx1jba6-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.9950000000001" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-15" value="ні" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5wHlpD6pRd-plRx1jba6-14">
+          <mxGeometry x="-0.3899" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;чи існує ліва дитина в межах списку&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314.99" y="400" width="90.01" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-11" target="5wHlpD6pRd-plRx1jba6-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Запам&#39;ятовуємо, що тепер найбільшим елементом є ліва дитина&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470.005" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-24" target="5wHlpD6pRd-plRx1jba6-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-21" value="так" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5wHlpD6pRd-plRx1jba6-20">
+          <mxGeometry x="-0.4742" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-24" target="5wHlpD6pRd-plRx1jba6-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.9950000000001" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-23" value="ні" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5wHlpD6pRd-plRx1jba6-22">
+          <mxGeometry x="-0.3899" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-24" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;чи існує ліва дитина в межах списку&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314.99" y="545" width="90.01" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-26" target="5wHlpD6pRd-plRx1jba6-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Запам&#39;ятовуємо, що тепер найбільшим елементом є ліва дитина&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470.005" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-27" target="5wHlpD6pRd-plRx1jba6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-34" value="ні" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5wHlpD6pRd-plRx1jba6-29">
+          <mxGeometry x="-0.7458" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.497;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-27" target="5wHlpD6pRd-plRx1jba6-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-35" value="так" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5wHlpD6pRd-plRx1jba6-30">
+          <mxGeometry x="-0.7422" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;чи є даний елемент початковим&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314.99" y="760" width="89.99" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-28" value="кінець роботи" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300.01" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5wHlpD6pRd-plRx1jba6-31" target="5wHlpD6pRd-plRx1jba6-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wHlpD6pRd-plRx1jba6-31" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Міняємо місцями значення поточного елемента зі значенням найбільшого елемента,&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="157.5" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="F7-qwmVwPshGBVQYy-zH" name="heapSort">
+    <mxGraphModel dx="1332" dy="1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uhomwbo-jvrSjkdsppeR-1" target="Uhomwbo-jvrSjkdsppeR-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-1" value="початок" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uhomwbo-jvrSjkdsppeR-4" target="Uhomwbo-jvrSjkdsppeR-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="500" as="targetPoint" />
+            <mxPoint x="575" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="570" y="230" />
+              <mxPoint x="570" y="440" />
+              <mxPoint x="414" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-9" value="так" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uhomwbo-jvrSjkdsppeR-5">
+          <mxGeometry x="-0.4684" y="-2" relative="1" as="geometry">
+            <mxPoint x="-95" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uhomwbo-jvrSjkdsppeR-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.78947368421063" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-7" value="ні" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uhomwbo-jvrSjkdsppeR-6">
+          <mxGeometry x="-0.4712" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;пройшли&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;по списку від середини до початку&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="359" y="180" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uhomwbo-jvrSjkdsppeR-8" target="Uhomwbo-jvrSjkdsppeR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-8" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;викликаємо heapify для кожного числа&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="340" width="124" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uhomwbo-jvrSjkdsppeR-10" target="Uhomwbo-jvrSjkdsppeR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-16" value="ні" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uhomwbo-jvrSjkdsppeR-13">
+          <mxGeometry x="-0.6321" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uhomwbo-jvrSjkdsppeR-10" target="Uhomwbo-jvrSjkdsppeR-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="510" />
+              <mxPoint x="570" y="810" />
+              <mxPoint x="414" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;пройшли&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;по списку з кінця до початку&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="359" y="460" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;найбільше число, на початку&amp;nbsp; &quot;купи&quot; , і міняємо його з числом, в кінці ще не відсортованої частини списку&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="610" width="149" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uhomwbo-jvrSjkdsppeR-14" target="Uhomwbo-jvrSjkdsppeR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;викликаємо heapify &lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;для решти частини списку, починаючи знову з першої позиції&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="705" width="138" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uhomwbo-jvrSjkdsppeR-12" target="Uhomwbo-jvrSjkdsppeR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhomwbo-jvrSjkdsppeR-18" value="кінець роботи" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
